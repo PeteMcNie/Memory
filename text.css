@@ -18,13 +18,13 @@ html {
 
 
 .grid-container {
-    border: 1px blue solid;
+    /* border: 1px blue solid; */
     display: flex;
 
 }
 
 .gameBoard {
-    border: 1px rgb(181, 221, 34) solid;
+    /* border: 1px rgb(181, 221, 34) solid; */
     width: 640px;
     height: 640px;
     margin: auto;
@@ -34,12 +34,12 @@ html {
 }
 
 .cards {
-    border: aqua solid 1px;
+    /* border: aqua solid 1px; */
     width: 150px;
     height: 200px;
     margin: 4px;
     position: relative;
-    box-shadow: 1px 1px 1px burlywood;
+    box-shadow: 1px 1px 1px rgb(0, 85, 0);
     transform: scale(1);
     transform-style: preserve-3d;
     /* transform: transform .5s; */
@@ -55,7 +55,7 @@ html {
     height: 100%;
     position: absolute;
     padding: 20px; 
-    background-color: cornflowerblue;
+    background-color: rgb(33, 109, 18);
     backface-visibility: hidden;
 }
 
