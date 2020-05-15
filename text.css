@@ -16,11 +16,9 @@ html {
     padding-bottom: 3vh;
 }
 
-
 .grid-container {
     /* border: 1px blue solid; */
     display: flex;
-
 }
 
 .gameBoard {
