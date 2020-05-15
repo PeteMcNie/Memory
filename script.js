@@ -1,4 +1,5 @@
 let card = document.querySelectorAll('.cards');
+
 let cardFlipped = false;
 let lockCards = false;
 let firstCard;
@@ -69,5 +70,9 @@ function resetCards () {
 card.forEach(image => image.addEventListener('click', flip));
 
 
+
+function reset () {
+    location.reload();
+}
 
 
