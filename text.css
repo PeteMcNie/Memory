@@ -13,6 +13,7 @@ html {
     font-size: 2.5rem;
     text-align: center;
     padding-top: 10vh;
+    padding-bottom: 3vh;
 }
 
 
@@ -29,6 +30,7 @@ html {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    perspective: 1000px;
 }
 
 .cards {
@@ -39,6 +41,8 @@ html {
     position: relative;
     box-shadow: 1px 1px 1px burlywood;
     transform: scale(1);
+    transform-style: preserve-3d;
+    /* transform: transform .5s; */
 }
 
 .cards:active {
@@ -52,5 +56,13 @@ html {
     position: absolute;
     padding: 20px; 
     background-color: cornflowerblue;
+    backface-visibility: hidden;
 }
 
+.card-front {
+    transform: rotateY(180deg);
+}
+
+.cards.flip {
+    transform: rotateY(180deg);
+}
